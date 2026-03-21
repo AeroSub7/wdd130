@@ -1,5 +1,5 @@
 :root {
-    --primary-color: #FE5000;
+    /* --primary-color: #FE5000; */
     /* Construction Orange */
     --secondary-color: #055a05;
     /* forest green */
@@ -58,13 +58,14 @@ h1 {
     text-align: center;
     opacity: 0.7;
     background-color: var(--accent1-color);
-    color: var(--primary-color);
+    color: black;
 }
 
 h2 {
     background-color: var(--accent1-color);
     opacity: 0.7;
     padding-left: 5px;
+    color: black;
 }
 
 .hero {
