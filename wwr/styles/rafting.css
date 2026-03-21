@@ -5,18 +5,18 @@
     /* forest green */
     --accent1-color: #c6b5ab;
     --accent2-color: #4d6f43;
-    --heading-font: "satisfontory", serif;
-    --body-font: "Open Sans", sans-serif;
+    --heading-font: Garamond serif;
+    --body-font: Arial, Helvetica, sans-serif;
 }
 
-@font-face {
-    font-family: "satisfontory";
-    /* By Nate Wren Design*/
-    src: url('fonts/satisfontory.otf') format('otf'), url('fonts/satisfontory.ttf') format('ttf');
+/* @font-face {
+    font-family: "satisfontory"; */
+/* By Nate Wren Design*/
+/* src: url('fonts/satisfontory.otf') format('otf'), url('fonts/satisfontory.ttf') format('ttf');
     font-weight: normal;
     font-style: normal;
 
-}
+} */
 
 * {
     margin: 0;
@@ -26,7 +26,7 @@
 
 body {
     font-family: var(--body-font);
-    color: var(--accent1-color)
+    color: var(--accent2-color)
 }
 
 header,
@@ -38,8 +38,8 @@ footer {
 
 h1,
 h2 {
-    font: "satisfontory";
-    color: var(--primary-color)
+    font-family: var(--heading-font);
+    color: var(--secondary-color)
 }
 
 nav,
@@ -67,16 +67,6 @@ h2 {
     padding-left: 5px;
 }
 
-article {
-    position: absolute;
-    top: 170px;
-    color: black;
-    opacity: 0.7;
-    background-color: var(--accent1-color);
-    height: 85px;
-
-}
-
 .hero {
     position: relative;
 }
@@ -85,6 +75,16 @@ article {
     display: block;
     width: 100%;
     height: auto;
+}
+
+.hero article {
+    position: absolute;
+    top: 170px;
+    color: black;
+    opacity: 0.7;
+    background-color: var(--accent1-color);
+    height: 85px;
+
 }
 
 .hero article img {
@@ -101,12 +101,12 @@ article {
     height: auto;
 }
 
-.open-sans {
+/* .open-sans {
     font-family: "Open Sans", sans-serif;
     font-optical-sizing: auto;
     font-weight: 550;
     /* weight can be from 300 to 800 */
-    font-style: normal;
+/* font-style: normal;
     font-variation-settings:
         "wdth" 100;
-}
+} */
