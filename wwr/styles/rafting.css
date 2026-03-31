@@ -135,6 +135,11 @@ figure img {
     opacity: 1;
 }
 
+.adventure {
+    grid-column: 1/6;
+
+}
+
 .hero article img {
     float: right;
     width: 125px;
@@ -168,10 +173,17 @@ figure img {
     grid-column: 1/4;
 }
 
+.grid3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 4fr;
+}
+
 .flex {
     display: flex;
     align-items: center;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 /* .open-sans {
