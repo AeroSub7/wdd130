@@ -1,8 +1,8 @@
 :root {
-    --secondary-color: #055a05;
+    --secondary-color: darkgreen;
     /* forest green */
     --accent1-color: #c6b5ab;
-    --accent2-color: #4d6f43;
+    --accent2-color: #2c4c3b;
     --heading-font: Garamond serif;
     --body-font: Arial, Helvetica, sans-serif;
 }
@@ -133,6 +133,10 @@ figure img {
     height: auto;
     box-shadow: none;
     opacity: 1;
+}
+
+article p {
+    color: black;
 }
 
 .adventure {
