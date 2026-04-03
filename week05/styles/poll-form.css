@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #fff;
+    font-size: 1.2em;
+    max-width: 700px;
+}
+
+header {
+    margin: 0 auto;
+    max-width: 700px;
+    min-width: none;
+}
+
+h1 {
+    margin: .5rem;
+    font-family: 'Times New Roman', Times, serif;
+    color: seagreen;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+}
+
+button,
+input,
+select,
+textarea {
+    font-family: inherit;
+    font-size: 100%;
+}
