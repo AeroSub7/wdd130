@@ -9,6 +9,7 @@ body {
     background-color: #fff;
     font-size: 1.2em;
     max-width: 700px;
+    color: #333
 }
 
 header {
@@ -22,12 +23,50 @@ h1 {
     font-family: 'Times New Roman', Times, serif;
     color: seagreen;
     text-align: center;
+    font-size: 2.5rem;
 }
 
 form {
-    display: flex;
-    flex-direction: column;
     width: 700px;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 1px solid rgb(0 0 0 / 0.1);
+    border-radius: 0.5rem;
+    background-color: #eee;
+    display: grid;
+}
+
+fieldset {
+    display: grid;
+    gap: .5rem;
+    margin: 1rem;
+    border: 1px solid rgb(0 0 0 / 0.2);
+    padding: 1rem;
+}
+
+legend {
+    padding: 0.5rem;
+    color: navy;
+    font-size: 1.3rem;
+}
+
+label,
+input,
+button,
+select,
+textarea {
+    font-family: Roboto, Arial, sans-serif;
+}
+
+label {
+    text-align: right;
+    padding-right: 1rem
+}
+
+input,
+select,
+textarea {
+    padding: 0.5rem;
 }
 
 button,
@@ -36,4 +75,46 @@ select,
 textarea {
     font-family: inherit;
     font-size: 100%;
+}
+
+input[type="checkbox"] {
+    width: 22px;
+    height: 22px;
+    vertical-align: bottom;
+}
+
+button {
+    margin: 1rem;
+    background-color: #fff;
+    border: none;
+    border-radius: 0.5rem;
+    padding: .75rem;
+    font-size: 1.2rem;
+}
+
+button:hover {
+    background-color: darkblue;
+}
+
+footer {
+    margin: 1rem atuo 0;
+    width: 700px;
+    text-align: center;
+    font-size: 0.8rem;
+    color: #777;
+    border-top: 1px solid #ccc;
+}
+
+.form-item {
+    display: grid;
+    align-items: center;
+}
+
+.column1 {
+    grid-template-columns: 3fr 1fr;
+    margin: 0.5rem 0;
+}
+
+.column2 {
+    grid-template-columns: 1fr 2fr;
 }
