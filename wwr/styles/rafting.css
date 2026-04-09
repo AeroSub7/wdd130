@@ -215,7 +215,7 @@ input {
 
 fieldset p {
     grid-row: 1/4;
-    place-self: right;
+    place-self: start;
     margin: auto auto auto 0;
     padding: 0;
 }
@@ -245,9 +245,9 @@ h1.contact-us {
 }
 
 .size-normal {
-    width: 1 rem;
+    width: 1rem;
     height: 1rem;
-    align-self: right;
+    align-self: start;
 }
 
 .last-item {
@@ -261,7 +261,7 @@ h1.contact-us {
 }
 
 .end {
-    border: 1px solid rgb(0 0 0 20%);
+    border: 1px solid rgb(0 0 0 / 20%);
     background-color: var(--accent1-color);
 }
 
