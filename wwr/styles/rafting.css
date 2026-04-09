@@ -133,10 +133,27 @@ figure img {
     height: auto;
     box-shadow: none;
     opacity: 1;
+    margin-top: 0.5rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+fieldset {
+    border: none;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
 }
 
 article p {
     color: black;
+}
+
+.form-item {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
 }
 
 .adventure {
@@ -166,6 +183,8 @@ article p {
     display: grid;
     grid-template-columns: 2fr 1fr 2fr;
     grid-template-rows: 1fr 4fr;
+    place-items: center;
+
 }
 
 .grid2 {
@@ -188,6 +207,61 @@ article p {
     align-items: center;
     justify-content: space-around;
     flex-wrap: wrap;
+}
+
+input {
+    margin: 3px;
+}
+
+fieldset p {
+    grid-row: 1/4;
+    place-self: right;
+    margin: auto auto auto 0;
+    padding: 0;
+}
+
+fieldset input {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.map {
+    margin: 0 auto;
+}
+
+section.start {
+    position: relative;
+}
+
+h1.contact-us {
+    position: relative;
+    display: block;
+    background-color: white;
+}
+
+.middle {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.size-normal {
+    width: 1 rem;
+    height: 1rem;
+    align-self: right;
+}
+
+.last-item {
+    display: grid;
+    grid-template-columns: 1fr 6fr;
+}
+
+.profile {
+    align-self: center;
+}
+
+.end {
+    border: 1px solid rgb(0 0 0 20%);
+    background-color: var(--accent1-color);
 }
 
 /* .open-sans {
