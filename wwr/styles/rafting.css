@@ -225,6 +225,15 @@ fieldset input {
     height: 1.5rem;
 }
 
+table,
+th,
+td {
+    border: 1px solid rgb(0 0 0 / 20%);
+    border-collapse: collapse;
+    padding: 5px;
+    text-align: center;
+}
+
 .map {
     margin: 0 auto;
 }
@@ -263,6 +272,38 @@ h1.contact-us {
 .end {
     border: 1px solid rgb(0 0 0 / 20%);
     background-color: var(--accent1-color);
+}
+
+.grid4 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 0;
+    margin: 1rem auto;
+}
+
+.cool {
+    display: block;
+    width: 150px;
+    height: auto;
+    justify-self: center;
+}
+
+.index-bottom {
+    margin: 0;
+    border-top: 1px solid rgb(0 0 0 / 20%);
+    border-left: 1px solid rgb(0 0 0 / 20%);
+
+}
+
+.trip-img {
+    width: 225px;
+    box-shadow: 0 0 5px 5px var(--accent2-color);
+    margin: 0 auto;
+}
+
+.flex1 {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
 }
 
 /* .open-sans {
